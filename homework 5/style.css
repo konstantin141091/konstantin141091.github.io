@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/*стили header*/
+
+ul.menu li.selector a {
+    color: black;
+}
+
+ul.menu li.selector ul li a {
+    color: #fff;
+}
+
+ul.menu li.selector ul li a:hover {
+    color: #868b3d;
+}
+
+.header {
+    height: 230px;
+    background-color: darkslateblue;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.logo_text {
+    font: normal 80% 'century gothic', arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+ul.menu {
+    list-style: none;
+    float: right;
+    margin: 50px 130px 0 0;
+}
+
+ul.menu li {
+    display: inline;
+    padding-top: 5px;
+    padding-right: 20px;
+    float: left;
+    width: 119px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font: normal 200% 'trebuchet ms', sans-serif;
+}
+
+ul.menu li a:hover {
+    color: #868b3d;
+}
+
+ul.menu li ul {
+    font-size: 10px;
+    display: none;
+}
+
+ul.menu li:hover ul {
+    display: block;
+}
+
+/*стили content index*/
+
+.content {
+    width: 626px;
+    margin: 0 auto;
+    border-left: solid 1px darkslateblue;
+    border-right: solid 1px darkslateblue;
+    padding: 20px 5px 20px 5px;
+    overflow: hidden
+}
+
+.main_phone {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main_phone img {
+    border: solid 3px darkslateblue;
+    width: auto;
+}
+
+/*стили content catalog*/
+
+.logo_catalog {
+    font: normal 300% 'century gothic', arial, sans-serif;
+    text-align: center;
+    color: darkslateblue;
+}
+
+.tovar_info {
+    width: 37%;
+    margin-left: 8%;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+.tovar_info img {
+    outline: solid 1px darkslateblue;
+    margin-bottom: 10px;
+}
+
+.tovar_info img:hover {
+    outline: none;
+}
+
+.tovar_info p a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.tovar_info p a:hover {
+    color: #868b3d;
+}
+
+/*стили content contact*/
+
+.btn {
+    padding: 8px;
+    background-color: darkslateblue;
+    margin: 2px;
+    font: normal 80% 'century gothic', arial, sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"] {
+	color: #fff;
+	width: 200px;
+    height: 30px;
+    background-color: darkslateblue;
+    margin: 2px;
+}
+
+text:focus, input:focus {
+    color: black;
+    background-color: #868b3d;
+    text-transform: capitalize;
+}
+
+
+input[type="textarea"] {
+    width: 400px;
+    height: 100px;
+    background-color: darkslateblue;
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    text-transform: capitalize;
+}
+
+
+.form1 {
+    text-align: center;
+}
+
+.adres {
+ text-align: center;
+    font: normal 80% 'century gothic', arial, sans-serif;
+    margin-top: 10px;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 374px;
+}
+
+/*стили content phone1 phone2*/
+
+.content_phone h2 {
+    font: normal 100% 'century gothic', arial, sans-serif;
+    color: darkslateblue;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.content_phone h3 {
+    font: normal 80% 'century gothic', arial, sans-serif;
+    color: darkslateblue;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.content_phone img {
+    outline: solid 1px darkslateblue;
+}
+
+.content_phone img:hover {
+    outline: none;
+}
+
+.show_phone img {
+    float: left;
+    margin-right: 5px;
+}
+
+.phone_table {
+    border-left: solid 1px black;
+    padding-left: 10px;
+}
+
+.content_phone form {
+    text-align: center;
+}
+
+.buy {
+    padding: 2%;
+    background-color: darkslateblue;
+    color: black;
+    font-size: 2em;
+    border: solid 5px #58a275;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.buy:hover {
+    border: solid 5px #f8f8f8;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: right;
+    height: 50px;
+    background-color: darkslateblue;
+    padding: 30px 80px 0 0;
+}
