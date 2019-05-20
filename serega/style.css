@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+
+/* style header */
+
+.header_top {
+    background-image: url(img/header.jpg);
+}
+
+.header_top .menu {
+    padding-top: 30px;
+    padding-left: 944px;
+    height: 75px;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+    padding-right: 70px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #261f1c;
+    font-size: 15px;
+}
+
+.header_button {
+    height: 876px;
+    background-color: black;
+}
+
+.logo img {
+    position: absolute;
+}
+
+.chuprov {
+    margin-left: 426px;
+    z-index: 1;
+}
+
+.hello {
+    margin-left: 1060px;
+    margin-top: 178px;
+    z-index: 2;
+}
+
+.logo_chuprov {
+    margin-left: 821px;
+    margin-top: 504px;
+    z-index: 3;
+}
+
+.i_am {
+    margin-left: 1167px;
+    margin-top: 747px;
+    z-index: 4;
+}
+
+.about_me {
+    margin-left: 463px;
+    margin-top: 664px;
+    z-index: 2;
+}
+
+.arrow {
+    margin-left: 463px;
+    margin-top: 761px;
+    z-index: 2;
+}
+
+
+/* style block1 */
+
+.block1 {
+    height: 687px;
+    background-image: url(img/fon_block1.png);
+}
+
+.i_can {
+    float: left;
+    margin-left: 463px;
+    margin-top: 344px;
+}
+
+.arrow_red {
+    margin-top: 427px;
+    margin-left: -12px;
+    float: left;
+}
+
+.text_block1 h3 {
+    margin-top: 108px;
+    font-size: 23px;
+}
+
+.text_block1_p1 {
+    width: 360px;
+    margin-top: 57px;
+}
+
+.text_block1 {
+    width: 800px;
+    float: left;
+    margin-left: 58px;
+}
+
+.text_block1 p span {
+    color: red;
+}
+
+.text_block1_p2 {
+    margin-top: 70px;
+    width: 279px;
+}
+
+.block1_about_me {
+    float: left;
+    margin-top: 561px;
+    font-size: 1.7em;
+}
+
+.text_block1 img {
+    margin-top: 11px;
+}
+
+.social_link img {
+    margin-right: 28px;
+}
+
+
+/* style block2 */
+
+.block2 {
+    height: 673px;
+}
+
+.block2_moncey {
+    margin-left: -4px;
+}
+
+.block2_right {
+    background-image: url(img/block2_fon_right.png);
+    width: 970px;
+    float: right;
+    height: 673px;
+}
+
+.block2_rigth_img img {
+    float: left;
+    clear: both;
+}
+
+.block2_rigth_img {
+    margin-left: 37px;
+    margin-top: 88px;
+}
+
+.block2_right_img2 {
+    margin-top: 107px;
+    margin-bottom: 112px;
+}
+
+.block2_right_text {
+    margin-left: 144px;
+    margin-top: 120px;
+}
+
+.block2_right_text h3 {
+    padding-left: 13px;
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: 1em;
+}
+
+
+.block2_right_p1 {
+    background-image: url(img/block2%20p1%20fon.png);
+    width: 377px;
+    padding: 8px 0 8px 13px;
+    margin-top: 27px;
+}
+
+.dizain {
+    margin-top: 56px;
+}
+
+.block2_right_p2 {
+    background-image: url(img/block2%20p1%20fon.png);
+    width: 367px;
+    padding: 8px 16px 8px 13px;
+    margin-top: 28px;
+}
+
+.media {
+    width: 253px;
+    margin-top: 51px;
+}
+
+.block2_rigth_p3 {
+    background-image: url(img/block2%20p3%20fon.png);
+    width: 377px;
+    padding: 6px 9px 5px 13px;
+    margin-top: 28px;
+}
+
+/* style block3 */
+
+.block3 {
+    height: 1647px;
+}
+
+.block3_line1 img {
+    float: left;
+}
+
+.block3_line1 h3 {
+    height: 52px;
+    float: right;
+    margin-top: 64px;
+    margin-right: 468px;
+}
+
+.yolgina {
+    margin-left: 468px;
+    margin-top: 64px;
+}
+
+.start_up {
+    margin-left: 24px;
+    margin-top: 64px;
+}
+
+.herous {
+    margin-left: 24px;
+    margin-top: 297px;
+}
+
+.trade_company {
+    margin-left: 24px;
+    margin-top: 181px;
+}
+
+.block3_line2 {
+    margin-left: 468px;
+    margin-top: 20px;
+    float: left;
+}
+
+.block3_line2 img {
+    float: left;
+}
+
+.mayak {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
