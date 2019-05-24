@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
 * {
     margin: 0;
     padding: 0;
 }
 
-body {}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container {
     margin: 0 auto;
@@ -33,7 +36,10 @@ body {}
     display: block;
     text-decoration: none;
     color: #261f1c;
-    font-size: 15px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 1.5px;
 }
 
 .header_button {
@@ -101,34 +107,65 @@ body {}
 }
 
 .text_block1 h3 {
-    margin-top: 108px;
+    margin-top: 90px;
+    margin-bottom: 50px;
     font-size: 23px;
+    color: #403d3c;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 23px;
 }
 
 .text_block1_p1 {
-    width: 360px;
-    margin-top: 57px;
+    width: 370px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.92px;
+    line-height: 20px;
 }
 
 .text_block1 {
     width: 800px;
     float: left;
-    margin-left: 58px;
+    margin-left: 50px;
 }
 
-.text_block1 p span {
+.text_block1_slogan {
+    margin: 10px 0;
+    letter-spacing: 2.92px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text_block1_slogan span {
     color: red;
 }
 
 .text_block1_p2 {
-    margin-top: 70px;
-    width: 279px;
+    margin-top: 60px;
+    margin-bottom: 18px;
+    width: 335px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2.5px;
 }
 
 .block1_about_me {
     float: left;
-    margin-top: 561px;
-    font-size: 1.7em;
+    margin-top: 554px;
+    margin-left: -16px;
+    font-size: 40px;
+    letter-spacing: 4.2px;
+}
+
+.block1_about {
+    font-weight: 200;
+}
+
+.block1_me {
+    font-weight: 400;
 }
 
 .text_block1 img {
@@ -144,6 +181,8 @@ body {}
 
 .block2 {
     height: 673px;
+    width: 1920px;
+    padding-left: 1px;
 }
 
 .block2_moncey {
@@ -152,7 +191,7 @@ body {}
 
 .block2_right {
     background-image: url(img/block2_fon_right.png);
-    width: 970px;
+    width: 969px;
     float: right;
     height: 673px;
 }
@@ -174,7 +213,7 @@ body {}
 
 .block2_right_text {
     margin-left: 144px;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 .block2_right_text h3 {
@@ -184,12 +223,15 @@ body {}
     letter-spacing: 1em;
 }
 
-
 .block2_right_p1 {
     background-image: url(img/block2%20p1%20fon.png);
-    width: 377px;
-    padding: 8px 0 8px 13px;
+    width: 492px;
+    padding: 6px 0 5px 13px;
     margin-top: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.17px;
+    letter-spacing: 3.01px;
 }
 
 .dizain {
@@ -198,9 +240,14 @@ body {}
 
 .block2_right_p2 {
     background-image: url(img/block2%20p1%20fon.png);
-    width: 367px;
-    padding: 8px 16px 8px 13px;
+    width: 492px;
+    padding: 6px 0 5px 13px;
     margin-top: 28px;
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.17px;
+    letter-spacing: 2.98px;
 }
 
 .media {
@@ -210,10 +257,16 @@ body {}
 
 .block2_rigth_p3 {
     background-image: url(img/block2%20p3%20fon.png);
-    width: 377px;
-    padding: 6px 9px 5px 13px;
+    width: 492px;
+    padding: 6px 0 5px 13px;
     margin-top: 28px;
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.17px;
+    letter-spacing: 3.01px;
 }
+
 
 /* style block3 */
 
@@ -226,10 +279,16 @@ body {}
 }
 
 .block3_line1 h3 {
+    text-align: left;
     height: 52px;
     float: right;
     margin-top: 64px;
     margin-right: 468px;
+    font-size: 23px;
+    color: #403d3c;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 23px;
 }
 
 .yolgina {
@@ -244,7 +303,7 @@ body {}
 
 .herous {
     margin-left: 24px;
-    margin-top: 297px;
+    margin-top: 181px;
 }
 
 .trade_company {
@@ -267,3 +326,198 @@ body {}
     margin-right: 20px;
 }
 
+.block3_line3 {
+    float: left;
+    margin-left: 468px;
+    margin-top: 20px;
+}
+
+.sadko {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.block3_line4 {
+    float: left;
+    margin-left: 468px;
+    margin-top: 20px;
+}
+
+.block3_line4_arrow {
+    float: left;
+    margin-top: 210px;
+    margin-left: -11px;
+}
+
+.block3_line4_my_klient {
+    float: left;
+    margin-top: 89px;
+}
+
+.yellow_menu {
+    margin-left: 244px;
+    margin-right: 20px;
+}
+
+.coffee {
+    margin-right: 7px;
+}
+
+.look_more {
+    width: 234px;
+    height: 234px;
+    background-image: url(img/look%20more.png);
+    float: right;
+    margin-left: 16px;
+}
+
+.look_more img {
+    float: left;
+    margin-top: 145px;
+    margin-left: 20px;
+}
+
+.look_more p {
+    width: 106px;
+    float: left;
+    color: white;
+    margin-left: 14px;
+    margin-top: 162px;
+}
+
+.block3_line5 {
+    float: left;
+    margin-left: 468px;
+}
+
+.block3_line5 h3 {
+    width: 122px;
+    float: left;
+    clear: both;
+    font-size: 40px;
+    letter-spacing: 4.2px;
+    font-weight: 400;
+}
+
+.block3_line5 img {
+    margin-left: 394px;
+    margin-top: 22px;
+}
+
+.block3_line4_my {
+    margin-top: 171px;
+    margin-bottom: 6px;
+    font-weight: 200 !important;
+}
+
+
+/* style footer */
+
+.footer {
+    height: 673px;
+    background-image: url(img/footer%20fon.png);
+}
+
+.zakaz {
+    margin-left: 453px;
+    margin-top: 275px;
+    float: left;
+}
+
+.footer_arrow {
+    float: left;
+    margin-top: 370px;
+    margin-left: -11px;
+}
+
+.comment h3 {
+    width: 279px;
+    margin-top: 66px;
+    font-size: 23px;
+    color: #403d3c;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 23px;
+}
+
+.comment {
+    float: left;
+    width: 640px;
+    padding-left: 240px;
+}
+
+.kovicki {
+    float: left;
+    margin-top: 46px;
+}
+
+.klient_photo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 46px;
+}
+
+.comment_text {
+    height: 228px;
+    width: 385px;
+    float: left;
+    margin-left: 52px;
+    padding-top: 46px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.comment_avtor {
+    margin-top: 22px;
+    clear: both;
+    font-weight: 500;
+}
+
+.comment_name {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.comment_menu {
+    float: left;
+    margin-left: 58px;
+}
+
+.comment_menu img {
+    margin-right: 22px;
+}
+
+.footer_bottom {
+    clear: both;
+}
+
+.klient_logo_my_klient {
+    float: left;
+    margin-left: 460px;
+    margin-top: 89px;
+}
+
+.klient_logo_my_klient h3 {
+    font-size: 40px;
+    letter-spacing: 4.2px;
+    font-weight: 400;
+}
+
+.klient_logo_my {
+    font-weight: 200 !important;
+}
+
+.klient_logo {
+    float: left;
+    margin: 89px 41px 0 41px;
+    width: 900px;
+}
+
+.klient_logo img {
+    float: left;
+    margin-right: 53px;
+}
