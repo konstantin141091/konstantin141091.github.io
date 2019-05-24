@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+
+/* style block1 */
+
+.block1 {
+    height: 981px;
+    background-image: url(img_zakaz/fon_zakaz.png);
+}
+
+.block1_text_zakaz {
+    padding-top: 40px;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.block1_text_now {
+    font-size: 52px;
+    font-weight: 200;
+    line-height: 52px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.block1_text {
+    clear: both;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.block1_text_p1 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 25.51px;
+    letter-spacing: 0.53px;
+}
+
+.block1_text_p2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 39.11px;
+    letter-spacing: 0.74px;
+}
+
+.logo_work {
+    float: left;
+    margin-left: 461px;
+    margin-top: 312px;
+}
+
+.logo_work img {
+    float: left;
+}
+
+.logo_work_arrow {
+    margin-left: -14px;
+    margin-top: 181px;
+}
+
+.block1_form {
+    margin-top: 10px;
+    margin-left: 102px;
+    float: left;
+}
+
+.block1_form p {
+    color: #ffffff;
+    margin-left: 13px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 772px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    border: none;
+    margin: 12px 0;
+    padding-left: 13px;
+    color: #5f5f5f;
+    opacity: 0.76;
+}
+
+textarea {
+    width: 772px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    border: none;
+    margin: 15px 0;
+    padding: 15px 0 0 13px;
+    color: #5f5f5f;
+    opacity: 0.76;
+    resize: none;
+}
+
+.button {
+    margin-left: 558px;
+    display: block;
+    width: 192px;
+    background-image: url(img_zakaz/button.png);
+    text-decoration: none;
+    padding: 17px 17px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22.67px;
+    letter-spacing: 12.62px;
+}
+
+.block1_contact {
+    clear: both;
+    margin-left: 466px;
+}
+
+.block1_contact_logo {
+    float: left;
+}
+
+.block1_contact h3 {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 4.2px;
+    font-weight: 400;
+}
+
+.block1_contact_my {
+    font-weight: 100 !important;
+}
+
+.block1_contact p {
+    float: right;
+    text-align: right;
+    margin-right: 559px;
+    margin-top: 27px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34.97px;
+    letter-spacing: 0.7px;
+}
+
+
+/* style block2 */
+
+.block2 {
+    height: 1562px;
+}
+
+.block2_header {
+    text-align: center;
+    margin-top: 64px;
+    color: #403d3c;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 48.21px;
+    letter-spacing: 23.68px;
+}
+
+.block2_header_p {
+    margin-top: 58px;
+    text-align: center;
+    color: #261f1c;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.53px;
+}
+
+.work {
+    background-image: url(img_zakaz/work_fon.png);
+    width: 986px;
+    height: 362px;
+    margin-top: 107px;
+    margin-left: 466px;
+}
+
+.work p {
+    margin-top: 145px;
+    float: left;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.06px;
+}
+
+.work_p1 {
+    margin-left: 26px;
+}
+
+.work_p2 {
+    margin-left: 64px;
+}
+
+.work_p3 {
+    margin-left: 71px;
+}
+
+.work_p4 {
+    margin-left: 90px;
+}
+
+.work_p5 {
+    margin-left: 80px;
+}
+
+.work_p6 {
+    margin-left: 63px;
+}
+
+.work_p_bottom {
+    float: left;
+    margin-top: 14px;
+    margin-left: 458px;
+}
+
+.work_p_bottom p {
+    float: left;
+    text-align: center;
+}
+
+.work_p2_bottom {
+    margin-left: 44px;
+}
+
+.work_p3_bottom {
+    margin-left: 30px;
+}
+
+.work_p4_bottom {
+    margin-left: 48px;
+}
+
+.work_p5_bottom {
+    margin-left: 86px;
+}
+
+.work_p6_bottom {
+    margin-left: 79px;
+}
+
+.block2_hr {
+    margin-left: 526px;
+    margin-top: 93px;
+}
+
+.block2_how_much {
+    margin-top: 66px;
+    text-align: center;
+    color: #403d3c;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 42.61px;
+    letter-spacing: 10.47px;
+}
+
+.block2_how_much_p {
+    margin-top: 101px;
+    text-align: center;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.85px;
+}
+
+.block2_how_much_p2 {
+    margin-top: 49px;
+    text-align: center;
+    color: #403d3c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32.86px;
+    letter-spacing: 8.78px;
+}
+
+.block2_price {
+    float: left;
+    margin-left: 566px;
+    margin-top: 70px;
+}
+
+.price_logo {
+    width: 164px;
+    height: 164px;
+    float: left;
+    background-image: url(img_zakaz/price_logo.png);
+}
+
+.price_name {
+    margin: 13px 0 0 13px;
+    color: #bf3b2e;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 7px;
+}
+
+.price_suma {
+    float: right;
+    margin: 51px 4px 3px 0;
+    color: #261f1c;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 1.61px;
+}
+
+.price_work {
+    float: right;
+    clear: both;
+    margin-right: 7px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.6px;
+}
+
+.price_site {
+    width: 164px;
+    height: 164px;
+    float: left;
+    margin-left: 37px;
+    background-image: url(img_zakaz/price_site.png);
+}
+
+.price_verstka {
+    width: 164px;
+    height: 164px;
+    float: left;
+    margin-left: 37px;
+    background-image: url(img_zakaz/verstka.png);
+}
+
+.price_bilbord {
+    width: 164px;
+    height: 164px;
+    float: left;
+    margin-left: 37px;
+    background-image: url(img_zakaz/bilbord.png);
+}
+
+.footer {
+    height: 155px;
+    background-color: black;
+}
+
+.social_link {
+    float: left;
+    margin: 43px 0 0 467px;
+}
+
+.social_link img {
+    margin-left: 24px;
+}
+
+.footer_logo {
+    float: right;
+    margin: 34px 469px 0 0;
+}
