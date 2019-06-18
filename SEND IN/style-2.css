@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.header {
+  min-height: 504px;
+  max-width: 455px; }
+  .header_top {
+    background: url("img/header_fon_mobile.jpg") no-repeat;
+    background-size: cover;
+    min-height: 288px; }
+
+/*# sourceMappingURL=style-2.css.map */
