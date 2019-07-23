@@ -10,9 +10,14 @@ body {
 a {
   text-decoration: none;
 }
+.container {
+  margin: 0 auto;
+  padding: 0 auto;
+}
 
 .header {
   min-height: 277px+227px;
+  max-width: 1440px;
   &_top{
     background: url("img/header_fon_mobile.jpg") no-repeat;
     background-size: cover;
@@ -64,6 +69,31 @@ a {
 .menu {
   display: none;
   list-style-type: none;
+}
+.promo {
+  background: #F7F7F7;
+  min-height: 371px;
+  padding: 17px 21px 0 21px;
+  &_logo {
+    background: url("img/Vector.png") no-repeat;
+    height: 112.46px;
+    position: relative;
+  }
+  img {
+    position: absolute;
+  }
+  .dpd {
+    left: 5.9px;
+    top: 37.49px;
+  }
+  .pony {
+    left: 14.32px;
+    top: 71.18px;
+  }
+  .spsr {
+    left: 225.77px;
+    top: 71.61px;
+  }
 }
 
 @media screen and(min-width: 375px) {
@@ -145,7 +175,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1400px){
   .header {
     min-height: 525px;
     background: url("img/header_fon_big.jpg") no-repeat;

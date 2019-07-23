@@ -9,8 +9,13 @@ body {
 a {
   text-decoration: none; }
 
+.container {
+  margin: 0 auto;
+  padding: 0 auto; }
+
 .header {
-  min-height: 504px; }
+  min-height: 504px;
+  max-width: 1440px; }
   .header_top {
     background: url("img/header_fon_mobile.jpg") no-repeat;
     background-size: cover;
@@ -56,6 +61,26 @@ a {
 .menu {
   display: none;
   list-style-type: none; }
+
+.promo {
+  background: #F7F7F7;
+  min-height: 371px;
+  padding: 17px 21px 0 21px; }
+  .promo_logo {
+    background: url("img/Vector.png") no-repeat;
+    height: 112.46px;
+    position: relative; }
+  .promo img {
+    position: absolute; }
+  .promo .dpd {
+    left: 5.9px;
+    top: 37.49px; }
+  .promo .pony {
+    left: 14.32px;
+    top: 71.18px; }
+  .promo .spsr {
+    left: 225.77px;
+    top: 71.61px; }
 
 @media screen and (min-width: 375px) {
   .header_top {
@@ -118,7 +143,7 @@ a {
       margin-right: 0; }
     .menu_mobile {
       display: none; } }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .header {
     min-height: 525px;
     background: url("img/header_fon_big.jpg") no-repeat;
