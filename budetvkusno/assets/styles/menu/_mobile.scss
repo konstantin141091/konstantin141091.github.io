@@ -1,0 +1,32 @@
+.mobile {
+  display: none;
+  background: url("../../img/fon_mobile.jpg");
+  position: fixed;
+  z-index: 200!important;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  &__list {
+    width: 100%;
+    position: absolute;
+    top: 141px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 20!important;
+  }
+  &__li {
+    border-bottom: solid 1px #ebebeb;
+  }
+  &__li a {
+    display: block;
+    padding-left: 8%;
+    width: 100%;
+    color: #323232;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 60px;
+  }
+}

@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="style_2.css">
 </head>
 <body>
-    <header class="header container">
+    <header class="header">
         <div class="header_top">
-            <a href="index-2.html" class="logo"></a>
-            <nav>
-                <a href="#" class="menu_mobile"><img src="img/menu_mobile.svg" alt=""></a>
-                <ul class="menu">
-                    <li class="menu_list"><a href="index-2.html" class="menu_link">Главная</a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">Описание </a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">Преимущества </a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">Отзывы</a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">Партнёры</a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">Гарантии</a></li>
-                    <li class="menu_list"><a href="#" class="menu_link">FAQ</a></li>
-                </ul>
-            </nav>
+            <div class="container header_top_content">
+                <a href="index-2.html" class="logo"></a>
+                <nav>
+                    <a href="#" class="menu_mobile"><img src="img/menu_mobile.svg" alt=""></a>
+                    <ul class="menu">
+                        <li class="menu_list"><a href="index-2.html" class="menu_link">Главная</a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Описание </a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Преимущества </a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Отзывы</a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Партнёры</a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">Гарантии</a></li>
+                        <li class="menu_list"><a href="#" class="menu_link">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header_text">
+        <div class="header_text container">
             <h3 class="header_h3">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h3>
             <p class="header_p">А посылка доедет сама</p>
-            <a href="#" class="header_button">отправить посылку</a>
+            <a href="#" class="header_button button">отправить посылку</a>
         </div>
-
     </header>
     <div class="promo container">
         <div class="promo_logo">
@@ -36,11 +37,102 @@
             <img src="img/pony.jpg" class="pony" alt="pony">
             <img src="img/bringo.jpg" class="bringo" alt="bringo">
             <img src="img/cdek.jpg" class="cdek" alt="cdek">
-            <img src="img/bg2.jpg" class="bg2" alt="bg2">
+            <img src="img/bg2.png" class="bg2" alt="bg2">
             <img src="img/tnt.jpg" class="tnt" alt="tnt">
             <img src="img/ups.jpg" class="ups" alt="ups">
             <img src="img/city_express.jpg" class="city_express" alt="city_express">
             <img src="img/spsr.jpg" class="spsr" alt="spsr">
+        </div>
+        <div class="promo__text">
+            <h3 class="promo__text__h3">Мы – агрегатор служб доставки</h3>
+            <p class="promo__text__p">
+                С нами удобно вам, вашим клиентам и курьерским службам. Для вас наши услуги бесплатны, так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!
+            </p>
+            <a href="#" class="promo__text__button button">отправить посылку</a>
+        </div>
+    </div>
+    <div class="description container">
+        <div class="description__block">
+            <img src="img/des1.png" alt="img">
+            <h3 class="description__h3">
+                Шаг 1
+            </h3>
+            <p class="description__p">
+                Придумайте что и кому отправить
+            </p>
+        </div>
+        <div class="description__block">
+            <img src="img/des2.png" alt="img">
+            <h3 class="description__h3">
+                Шаг 2
+            </h3>
+            <p class="description__p">
+                Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все необходимые данные
+            </p>
+        </div>
+        <div class="description__block">
+            <img src="img/des3.png" alt="img">
+            <h3 class="description__h3">
+                Шаг 3
+            </h3>
+            <p class="description__p">
+                К Вам приезжает курьер, забирает посылку, Вы подписываете один документ
+            </p>
+        </div>
+        <div class="description__block">
+            <img src="img/des4.jpg" alt="img">
+            <h3 class="description__h3">
+                Шаг 4
+            </h3>
+            <p class="description__p">
+                Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)
+            </p>
+        </div>
+    </div>
+    <div class="send container">
+        <h3 class="send__h3">
+            Мы берём все заботы по доставке на себя!
+        </h3>
+        <a href="#" class="button">отправить посылку</a>
+    </div>
+    <div class="call container">
+        <h3 class="call__h3">
+            хотите мы вам перезвоним?
+        </h3>
+        <p class="call__p">
+            Закажите звонок, и менеджер вам всё расскажет и объяснит
+        </p>
+        <form action="#">
+            <input type="number" class="call__input" placeholder="Ваш телефон">
+        </form>
+        <a href="#" class="button call__button">заказать звонок</a>
+        <form action="#" class="call__form">
+            <input type="checkbox" class="call__checkbox">
+            <p class="call__agree">Я согласен на обработку персональных данных</p>
+        </form>
+    </div>
+    <div class="reviews container">
+        <h3 class="reviews__h3">ОТЗЫВЫ</h3>
+        <div class="review">
+            <img src="img/arr-left.png" class="review__arr" alt="img">
+            <div class="review__container">
+                <div class="review__container__top">
+                    <img src="img/review-1.jpg" alt="img">
+                    <div class="review__text">
+                        <p class="review__name">Дарья</p>
+                        <p class="review__company">La Intuicion</p>
+                        <p class="review__info">Посылка: товары</p>
+                        <p class="review__info">Откуда: Москва</p>
+                        <p class="review__info">Куда: Нижневартовск</p>
+                    </div>
+                </div>
+                <div class="review__container__down">
+                    <p class="review__comment">
+                        Отличный и качественный сервис. Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).
+                    </p>
+                </div>
+            </div>
+            <img src="img/arr-right.png" class="review__arr" alt="img">
         </div>
     </div>
 </body>
