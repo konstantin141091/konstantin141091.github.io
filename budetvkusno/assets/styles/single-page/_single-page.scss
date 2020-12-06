@@ -8,8 +8,11 @@
   &__left, &__right {
     width: 50%;
   }
+  &__right {
+    text-align: justify;
+  }
   &__mainImg {
-    padding: 0 9%;
+    padding: 0 7%;
   }
   &__mainImg img {
     width: 100%;
@@ -52,6 +55,8 @@
     padding: 9.5px 11px;
     color: #8a99bf;
     font-size: 20px;
+    margin-right: 4%;
+    text-align: justify;
   }
   &__offer a {
     color: #8a99bf;
@@ -132,5 +137,106 @@
     font-size: 3rem;
     top: 30px;
     right: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .product {
+    &__gallery {
+      margin-right: 11px;
+    }
+    &__right {
+      padding-left: 5px;
+    }
+    &__mainImg {
+      padding-right: 9%;
+    }
+  }
+}
+
+@media screen and (max-width: 991px){
+  .product {
+    &__right {
+      padding-right: 3%;
+    }
+  }
+}
+
+@media screen and(max-width: 831px) {
+  .single-page {
+    &__container {
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+  }
+
+  .product {
+    flex-direction: column;
+    padding: 0 2%;
+    &__right, &__left {
+      width: 100%;
+    }
+    &__right {
+      padding: 0;
+    }
+    &__mainImg {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    &__mainImg img {
+      width: 57%;
+    }
+    &__gallery {
+      margin-right: 1%;
+      margin-left: 1%;
+    }
+    &__offer {
+      margin-right: 0;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__order {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .product {
+    &__arrow {
+      font-size: 30px;
+    }
+    &__offer {
+      font-size: 14px;
+    }
+    &__description, &__composition, &__offer {
+      font-size: 0.9rem;
+    }
+    &__mainImg img {
+      height: 50vh;
+      width: auto;
+    }
+    &__title {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 440px){
+  .product {
+    &__order {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 360px){
+  .product {
+    &__arrow {
+      font-size: 24px;
+    }
   }
 }
