@@ -1,11 +1,16 @@
 .mobile {
   display: none;
-  background: url("../../img/fon_mobile.jpg");
+  background-image: url("../../img/fon_main.jpg");
   position: fixed;
   z-index: 200!important;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  -webkit-transition: all 0.5s ease-out, background 1s ease-out;
+  transition: all 0.5s ease-out, background 1s ease-out;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+
   &__list {
     width: 100%;
     position: absolute;
@@ -29,4 +34,8 @@
     font-size: 16px;
     line-height: 60px;
   }
+  &__show {
+    display: block;
+  }
+
 }

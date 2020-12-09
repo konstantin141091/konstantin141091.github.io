@@ -51,6 +51,10 @@ a {
   display: flex!important;
 }
 
+.mobile__fon {
+  background: url("../img/fon_mobile.jpg");
+}
+
 @media screen and (max-width: 1199px){
 
   .container {
@@ -62,7 +66,8 @@ a {
 @media screen and (max-width: 991px){
 
   .container {
-    width: 100%
+    width: 100%;
+    margin-right: 0;
   }
 }
 

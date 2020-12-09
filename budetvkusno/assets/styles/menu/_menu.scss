@@ -29,6 +29,7 @@
 .burger {
   display: none;
   margin-right: 5%;
+  z-index: 250;
   &__button {
     border: none;
     background: none;
@@ -41,16 +42,28 @@
   }
   &__bar {
     width: 24px;
-    height: 4px;
+    height: 2px;
     background: #333;
     border-radius: 10px;
     display: block;
     margin-bottom: 4px;
+    -webkit-transition: all 0.3s cubic-bezier(0.4,0.01,0.165,0.99);
+    transition: all 0.3s cubic-bezier(0.4,0.01,0.165,0.99);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
   }
   &__bar:last-child {
     margin-bottom: 0;
   }
-
+  &__top {
+    transform: rotate(45deg);
+  }
+  &__middle {
+    display: none;
+  }
+  &__bottom{
+    transform: translateY(-6px) rotate(-45deg);
+  }
 }
 
 @media screen and (max-width: 960px){
