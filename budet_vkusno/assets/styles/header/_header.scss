@@ -1,0 +1,32 @@
+@import "../menu/menu";
+@import "../logo/logo";
+@import "../menu/mobile";
+
+.header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  background: none;
+  z-index: 250!important;
+  &__container {
+    display: flex;
+    padding: 10px 0 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__scroll {
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 7px 5px 0 rgba(0,0,0,0.2);
+  }
+  &__logo {
+    z-index: 250;
+    margin-left: 2%;
+  }
+  &__animation {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+}

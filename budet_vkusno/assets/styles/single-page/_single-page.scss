@@ -1,0 +1,266 @@
+.single-page {
+
+}
+
+.product {
+  display: flex;
+  margin: 40px 0;
+  &__left, &__right {
+    width: 50%;
+  }
+  &__right {
+    text-align: justify;
+  }
+  &__mainImg {
+    padding: 0 7%;
+  }
+  &__mainImg img {
+    width: 100%;
+    cursor: pointer;
+  }
+  &__gallery {
+    margin: 15px 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  &__img {
+    width: 26%;
+    margin-right: 4%;
+    cursor: pointer;
+  }
+  &__img:last-of-type {
+    margin-right: 0;
+  }
+  &__arrow {
+    font-size: 40px;
+    cursor: pointer;
+  }
+  &__arrow:hover {
+    color: #8a99bf;
+  }
+  &__arrow:first-child {
+    position: absolute;
+    left: 0;
+  }
+  &__arrow:last-child {
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+  }
+  &__offer {
+    border-bottom: solid 1px #8a99bf;
+    border-top: solid 1px #8a99bf;
+    padding: 9.5px 11px;
+    color: #8a99bf;
+    font-size: 20px;
+    margin-right: 4%;
+    text-align: justify;
+  }
+  &__offer a {
+    color: #8a99bf;
+  }
+  &__offer a:hover {
+    color: #323232;
+  }
+  &__title {
+    text-align: left;
+    font-size: 3rem;
+    color: #323232;
+  }
+  &__order {
+    display: flex;
+    margin-top: 20px;
+  }
+  &__price {
+    margin-right: 5%;
+  }
+  &__price p {
+    text-align: left;
+    font-size: 1.6rem;
+    color: #323232;
+  }
+  &__instagram a {
+    text-align: left;
+    font-size: 1.6rem;
+    color: #818eb1;
+    transition: 1.5s;
+    cursor: pointer;
+  }
+  &__instagram a:hover {
+    color: #323232;
+    transform: scale(1.1);
+  }
+  &__description, &__composition {
+    font-size: 1.4rem;
+  }
+  &__description {
+    margin: 15px 0;
+  }
+  &__composition {
+    margin-bottom: 20px;
+  }
+  &__bigImg {
+    position: fixed;
+    background: hsla(0, 0%, 0%, 0.9);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__bigImg img {
+    height: 90%;
+  }
+  &__bigImg i {
+    position: absolute;
+    cursor: pointer;
+  }
+  &__bigImg i:hover {
+    color: #ffffff;
+  }
+  &__bigArrow {
+    font-size: 4rem;
+  }
+  &__bigArrow:first-of-type {
+    left: 40px;
+  }
+  &__bigArrow:last-of-type {
+    right: 40px;
+    transform: rotate(180deg);
+  }
+  &__close {
+    font-size: 3rem;
+    top: 30px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .product {
+    &__gallery {
+      margin-right: 11px;
+    }
+    &__right {
+      padding-left: 5px;
+    }
+    &__mainImg {
+      padding-right: 9%;
+    }
+  }
+}
+
+@media screen and (max-width: 991px){
+  .product {
+    &__right {
+      padding-right: 3%;
+    }
+  }
+}
+
+@media screen and(max-width: 831px) {
+  .single-page {
+    &__container {
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+  }
+
+  .product {
+    flex-direction: column;
+    padding: 0 2%;
+    &__right, &__left {
+      width: 100%;
+    }
+    &__right {
+      padding: 0;
+    }
+    &__mainImg {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    &__mainImg img {
+      width: 57%;
+    }
+    &__gallery {
+      margin-right: 1%;
+      margin-left: 1%;
+    }
+    &__offer {
+      margin-right: 0;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__order {
+      justify-content: center;
+    }
+    &__bigArrow:first-of-type {
+      left: 1px;
+    }
+    &__bigArrow:last-of-type {
+      right: 1px;
+    }
+    &__bigImg img {
+      height: 70%;
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .product {
+    &__arrow {
+      font-size: 30px;
+    }
+    &__offer {
+      font-size: 14px;
+    }
+    &__description, &__composition, &__offer {
+      font-size: 0.9rem;
+    }
+    &__mainImg img {
+      height: 50vh;
+      width: auto;
+    }
+    &__title {
+      font-size: 2rem;
+      margin-top: 5px;
+    }
+    &__bigArrow {
+        font-size: 3rem;
+    }
+    &__close {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 440px){
+  .product {
+    &__order {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__bigArrow {
+      font-size: 2rem;
+    }
+    &__close {
+      font-size: 1.5rem;
+      top: 10px;
+      right: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px){
+  .product {
+    &__arrow {
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import "header/header";
+@import "footer/footer";
+@import "index/content";
+@import "catalog/catalog";
+@import "single-page/single-page";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Nerko One', cursive;
+  background: url("../img/fon_main.jpg") repeat;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  //padding-left: 10px;
+  //padding-right: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.animation {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.flex {
+  display: flex!important;
+}
+.sticky {
+  position: sticky;
+}
+
+.fixed {
+  position: fixed;
+}
+
+//.mobile__fon {
+//  background: url("../img/fon_mobile.jpg");
+//}
+
+@media screen and (max-width: 1199px){
+
+  .container {
+    width: 980px;
+  }
+
+}
+
+@media screen and (max-width: 991px){
+
+  .container {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 740px){
+
+  .container {
+    width: 100%;
+  }
+}

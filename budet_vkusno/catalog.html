@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!--    <link rel="stylesheet" href="assets/styles/normalize.css">-->
+    <script src="https://kit.fontawesome.com/bf05fd6411.js" crossorigin="anonymous"></script>
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="app">
+        <div class="wrapper">
+            <mobile-comp ref="mobile" style="background-image: url('assets/img/fon_mobile.jpg')"></mobile-comp>
+            <header-comp ref="header"></header-comp>
+            <main class="main" rel="main">
+
+                <div class="catalog">
+                    <div class="container catalog__container">
+                        <div class="catalog__menu">
+                            <ul class="catalog__list">
+                                <li class="catalog__li"><a href="#">Вкусняшки</a></li>
+                                <li class="catalog__li"><a href="#">Торты</a></li>
+                                <li class="catalog__li"><a href="#">Десерты</a></li>
+                                <li class="catalog__li"><a href="#">Кексы</a></li>
+                            </ul>
+                        </div>
+                        <div class="catalog__shop">
+                            <catalog-product-comp  ref="catalog-product"></catalog-product-comp>
+                            <catalog-product-comp  ref="catalog-product"></catalog-product-comp>
+                            <catalog-product-comp  ref="catalog-product"></catalog-product-comp>
+                            <catalog-product-comp  ref="catalog-product"></catalog-product-comp>
+                            <catalog-product-comp  ref="catalog-product"></catalog-product-comp>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <footer-comp ref="footer"></footer-comp>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="assets/js/components/header-comp.js"></script>
+    <script src="assets/js/components/mobile-comp.js"></script>
+    <script src="assets/js/components/footer-comp.js"></script>
+    <script src="assets/js/components/catalog-product-comp.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
